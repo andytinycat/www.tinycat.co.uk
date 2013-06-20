@@ -25,7 +25,7 @@ ssh_options[:forward_agent] = true
 ssh_options[:paranoid] = true 
 
 namespace :octopress do
-  task :generate, :roles => :app do
+  task :generate, :roles => :web do
     run "cd #{release_path} && bundle exec rake generate"
   end
 end
