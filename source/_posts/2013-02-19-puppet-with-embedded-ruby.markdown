@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Puppet with embedded Ruby"
-date: 2012-02-20 22:52
+date: 2013-02-19 22:52
 comments: true
 categories: sysadmin
 ---
